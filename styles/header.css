@@ -15,10 +15,43 @@
   width: 100%;
 }
 
+.hd_btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  right: 64px;
+  bottom: 16px;
+}
+
+.hd_btns li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+.hd_btns a i {
+  color: #000;
+  font-size: 2em;
+}
+
 @media (max-width: 767px) {
   .hd_logo {
     left: 16px;
     bottom: 8px;
     width: 64vw;
+  }
+
+  .hd_btns {
+    gap: 16px;
+    right: 16px;
+    bottom: 0;
+    transform: translateY(120%);
+  }
+
+  .hd_btns a i {
+    font-size: 1.5em;
   }
 }
