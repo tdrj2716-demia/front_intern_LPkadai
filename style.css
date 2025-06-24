@@ -80,7 +80,10 @@ video {
 }
 
 body {
-    line-height: 1
+    line-height: 1;
+    font-family: "Zen Maru Gothic";
+    font-weight: 500;
+    line-height: 2;
 }
 
 article,
