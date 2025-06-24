@@ -1,0 +1,24 @@
+.hd_area {
+  position: relative;
+}
+
+.hd_logo {
+  /* img要素はインライン要素、picture要素はブロック要素であることに注意 */
+  display: inline-block;
+  position: absolute;
+  left: 64px;
+  bottom: 16px;
+  height: 24px;
+}
+
+.hd_img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .hd_logo {
+    left: 16px;
+    bottom: 8px;
+    width: 64vw;
+  }
+}
