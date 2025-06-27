@@ -1,24 +1,40 @@
-.product_area {
-  padding: 144px 40px 0;
+.product_area, .feature_area {
+  padding: 144px 72px 0;
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 96px;
 }
 
-.product_part_tea, .product_part_scone {
+.feature_area {
+  align-items: center;
+}
+
+.product_part_tea, .product_part_scone, .feature_tea, .feature_snacks {
   display: flex;
   align-items: center;
 }
 
-.product_part_scone {
+.product_part_scone, .feature_snacks {
   flex-direction: row-reverse;
 }
 
-.product_img {
+.feature_tea, .feature_snacks {
+  gap: 56px;
+}
+
+.product_img, .feature_img {
   width: 80vw;
   max-width: 600px;
   object-fit: contain;
+}
+
+.product_img {
+  max-width: 600px;
+}
+
+.feature_img {
+  max-width: 450px;
 }
 
 .product_tea, .product_scone {
@@ -38,18 +54,24 @@
   margin-right: -108px;
 }
 
-.product_title {
+.product_title, .feature_title {
+  text-align: center;
   font-size: xx-large;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
+.feature_caption {
+  font-size: x-large;
+  font-weight: bold;
+}
+
 @media (max-width: 767px) {
-  .product_area {
+  .product_area, .feature_area {
     gap: 24px;
   }
 
-  .product_part_tea, .product_part_scone {
+  .product_part_tea, .product_part_scone, .feature_tea, .feature_snacks {
     flex-direction: column;
     gap: 24px
   }
@@ -58,5 +80,13 @@
     margin: 0;
     padding: 0;
     gap: 8px
+  }
+
+  .product_title, .feature_title {
+    font-size: x-large;
+  }
+
+  .feature_caption {
+    font-size: large;
   }
 }
