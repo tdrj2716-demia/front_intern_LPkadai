@@ -1,0 +1,47 @@
+.about_area {
+  padding: 144px 72px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.about_caption {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.about_part {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+}
+
+.about_part_title {
+  flex: 0 0 160px;
+}
+
+.about_part_content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 767px) {
+  .about_caption {
+    font-size: large;
+  }
+
+  .about_part {
+    font-size: medium;
+    flex-direction: column;
+  }
+
+  .about_part, .about_part_content {
+    gap: 16px;
+  }
+
+  .about_part_title {
+    flex: 0 0 32px;
+  }
+}
