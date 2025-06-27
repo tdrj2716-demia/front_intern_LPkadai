@@ -1,0 +1,62 @@
+.product_area {
+  padding: 144px 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.product_part_tea, .product_part_scone {
+  display: flex;
+  align-items: center;
+}
+
+.product_part_scone {
+  flex-direction: row-reverse;
+}
+
+.product_img {
+  width: 80vw;
+  max-width: 600px;
+  object-fit: contain;
+}
+
+.product_tea, .product_scone {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 72px 56px 96px;
+  z-index: 2;
+}
+
+.product_tea {
+  margin-left: -108px;
+}
+
+.product_scone {
+  margin-right: -108px;
+}
+
+.product_title {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .product_area {
+    gap: 24px;
+  }
+
+  .product_part_tea, .product_part_scone {
+    flex-direction: column;
+    gap: 24px
+  }
+
+  .product_tea, .product_scone {
+    margin: 0;
+    padding: 0;
+    gap: 8px
+  }
+}
