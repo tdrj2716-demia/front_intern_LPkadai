@@ -1,0 +1,95 @@
+.info_area {
+  padding-top: 144px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.info_logo {
+  height: 42px;
+  object-fit: contain;
+}
+
+.info_logo_sub {
+  height: 32px;
+  object-fit: contain;
+}
+
+.info_part_cafe {
+  width: 100%;
+  display: flex;
+  gap: 72px;
+  padding-right: 72px;
+}
+
+.cafe_content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+}
+
+.btn_outline {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  padding: 16px 24px;
+  border: solid 1px #000;
+  color: #000;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.btn_outline:hover {
+  background-color: #eee;
+}
+
+.info_part_online {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  padding: 40px 72px;
+}
+
+.info_img, .online_description {
+  width: 50vw;
+  max-width: 720px;
+}
+
+@media (max-width: 767px) {
+  .info_area {
+    gap: 40px;
+  }
+
+  .info_logo {
+    width: 72vw;
+    height: auto;
+    max-height: 42px;
+  }
+
+  .info_part_cafe {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .info_img, .online_description {
+    width: 100%;
+  }
+
+  .cafe_content {
+    padding: 0 40px;
+  }
+
+  .info_part_online {
+    flex-direction: column;
+    padding: 40px 40px;
+    gap: 32px
+  }
+
+  .btn_outline {
+    width: 240px;
+    align-self: center;
+  }
+}
