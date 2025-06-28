@@ -49,10 +49,12 @@
   color: #000;
   text-decoration-line: none;
   font-weight: bold;
+  transition: background-color 0.4s ease;
 }
 
 .btn_outline:hover {
   background-color: #eee;
+  cursor: pointer;
 }
 
 .info_part_online {

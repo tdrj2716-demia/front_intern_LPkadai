@@ -35,6 +35,21 @@
   border: 1px solid #7f7f7f;
 }
 
+.privacy_check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.submit_btn {
+  color: #fff;
+  background-color: #666;
+}
+
+.submit_btn:hover {
+  color: #000;
+}
+
 @media (max-width: 767px) {
   .contact_area {
     padding: 144px 40px;
