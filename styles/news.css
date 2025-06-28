@@ -25,6 +25,7 @@
 }
 
 .latest_news p {
+  display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 8px;
@@ -114,5 +115,7 @@
   .latest_news p {
     min-width: 240px;
     border: solid 1px #000;
+    font-weight: bold;
+    padding: 16px 24px;
   }
 }
