@@ -68,6 +68,7 @@
 
 @media (max-width: 767px) {
   .product_area, .feature_area {
+    padding: 144px 40px 0;
     gap: 24px;
   }
 

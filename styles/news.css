@@ -60,7 +60,7 @@
 
 .news_post_content {
   font-size: medium;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .news_post_bottom {
@@ -84,7 +84,7 @@
 
 @media (max-width: 767px) {
   .news_area {
-    padding: 144px 16px;
+    padding: 144px 40px;
   }
 
   .news_post, .news_post_bottom {
