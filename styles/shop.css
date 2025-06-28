@@ -31,6 +31,15 @@
   gap: 32px;
 }
 
+.shop_access {
+  border-top: 1px solid #7f7f7f;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+.shop_access th, .shop_access td {
+  padding: 16px 8px;
+}
+
 .btn_outline {
   display: flex;
   justify-content: center;
