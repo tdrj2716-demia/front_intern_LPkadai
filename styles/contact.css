@@ -1,5 +1,5 @@
 .contact_area {
-  padding: 144px 72px;
+  padding: 144px 72px 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -50,9 +50,20 @@
   color: #000;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.img_copyright {
+  height: 20px;
+}
+
 @media (max-width: 767px) {
   .contact_area {
-    padding: 144px 40px;
+    padding: 144px 40px 0;
   }
   .form_container label, .form {
     width: 100%;
@@ -60,5 +71,9 @@
 
   .form_container p {
     flex-direction: column;
+  }
+
+  .footer {
+    padding: 64px 0 128px;
   }
 }
