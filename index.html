@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles/products.css">
   <link rel="stylesheet" href="styles/recipe.css">
   <link rel="stylesheet" href="styles/shop.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <!-- Zen Maru Gothicを利用：https://fonts.google.com/selection/embed -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -301,6 +302,31 @@
               </p>
             </a>
         </div>
+      </section>
+      <section class="contact_area">
+        <img class="contact_logo" src="img/contact/contact_ttl.svg" alt="Contact">
+        <form action="#" class="form_container">
+          <p>
+            <label for="name">名前：</label>
+            <input class="form" type="text" id="name" placeholder="例）出見亜 太郎" autocomplete="name" required>
+          </p>
+          <p>
+            <label for="email">メールアドレス：</label>
+            <input class="form" type="text" id="email" placeholder="例）example@gmail.com" autocomplete="email" required>
+          </p>
+          <p>
+            <label for="category">件名：</label>
+            <select class="form" id="category">
+              <option value="products">商品について</option>
+              <option value="others">その他</option>
+            </select>
+          </p>
+          <p>
+            <label for="content">内容：</label>
+            <textarea class="form" id="content" rows="10" placeholder="例）店頭で取り扱っているフレーバーティーについて知りたい" required
+            ></textarea>
+          </p>
+        </form>
       </section>
     </article>
   </main>
